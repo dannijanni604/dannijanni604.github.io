@@ -1,41 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-  <base href="/">
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
 
-  //schema added here
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Adnan Ashraf",
-    "jobTitle": "Flutter Developer",
-    "url": "https://dannijanni604.github.io",
-    "sameAs": [
-      "https://linkedin.com/in/android-developers",
-      "https://github.com/dannijanni604"
-    ],
-    "worksFor": {
-      "@type": "Organization",
-      "name": "Freelancer"
-    },
-    "description": "Adnan Ashraf Portfolio - Showcasing Adnan Ashraf's work as a Flutter Developer",
-    "image": "https://dannijanni604.github.io/profile-picture.jpg"
-  }
-  </script>
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="title" content="Adnan Ashraf | Flutter Developer Portfolio">
-  <meta name="description" content="Adnan Ashraf Portfolio - Showcasing Adnan Ashraf work as a Flutter Developer">
-  <meta name="keywords"
-    content="Flutter developer, Adnan Ashraf, Android app developer, iOS app development, Web app, Mobile Apps, Cross-Platform Development">
-
-  <meta property="og:title" content="Adnan Ashraf | Flutter Developer Portfolio">
-  <meta property="og:description" content="A collection of Flutter projects developed by Adnan Ashraf.">
-  <meta property="og:url" content="https://dannijanni604.github.io">
-  <meta property="og:type" content="website">
+  <meta name="description" content="I have developed a Flutter-based personal website to showcase my development skills and projects. Built with modern UI/UX principles, this project reflects my expertise in Flutter's cross-platform capabilities, offering a responsive experience on both mobile and web platforms. The portfolio highlights key projects, technical skills, and professional accomplishments, with smooth navigation and dynamic content management. It serves as a living resume, demonstrating my proficiency in state management, API integration, and front-end design, while providing an intuitive interface for potential employers and collaborators to explore my work.">
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -44,44 +27,12 @@
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>Adnan Ashraf Portfolio</title>
+  <title>adnan_ashraf_portfolio</title>
   <link rel="manifest" href="manifest.json">
-  <!-- canonical -->
-  <link rel="canonical" href="https://dannijanni604.github.io">
-
-  <!-- Google Tag Manager -->
-  <script>(function (w, d, s, l, i) {
-      w[l] = w[l] || []; w[l].push({
-        'gtm.start':
-          new Date().getTime(), event: 'gtm.js'
-      }); var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-W8J38BHM');</script>
-  <!-- End Google Tag Manager -->
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VYJ4XJ8TNX"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'G-VYJ4XJ8TNX');
-  </script>
-
-
-
 </head>
-
 <body>
   <script src="flutter_bootstrap.js" async></script>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W8J38BHM" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
 </body>
-
 </html>
